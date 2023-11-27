@@ -1,0 +1,11 @@
+{
+  "name": "Text Master GPT",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A chrome extension that allows you to do a plethora of operations on selected text using GPT-3.5.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+ "permissions": ["activeTab", "clipboardRead", "clipboardWrite", "https://*/*", "storage", "tabs", "scripting"]
+}
